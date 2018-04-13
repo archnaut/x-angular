@@ -4,15 +4,19 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
+import { LinkComponent } from './link/link.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LinkComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
