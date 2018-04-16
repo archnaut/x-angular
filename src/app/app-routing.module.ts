@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LinkComponent } from "./link/link.component";
 
 const routes: Routes = [
-  { path: '', redirectTo: '/link', pathMatch: 'full'}
+  { path: '', redirectTo: '/link', pathMatch: 'full'},
   { path: 'link', component: LinkComponent }
 ];
 
